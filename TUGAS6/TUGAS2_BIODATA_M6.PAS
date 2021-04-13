@@ -1,6 +1,6 @@
-Nama : Arie Ahmad Syarief}
-{NPM : 20.14.1.0031}
-{Nama Program : Biodata_Diri_Sendiri.pas}
+{Nama : Mohammad Ihsan Siddiq}
+{NPM : 20.14.1.0005}
+{Nama Program : Biodata.pas}
 
 program procedure_biodata;
 uses crt;
@@ -19,13 +19,13 @@ writeln('Masukan Tempat Tanggal Lahir:');readln(ttl);
 writeln('Masukan Kontak Whatsapp     :');readln(wa);
 writeln('Masukan Email               :');readln(email);
 writeln('----------============================----------');
-writeln('----------====BIODATA DIRI SENDIRI====----------');
+writeln('----------=======BIODATA PRIBADI======----------');
 Writeln('----------============================----------');
 writeln('Nama                           :',nama);
 writeln('NPM                            :',npm);
 writeln('Jenis Kelamin                  :',jk);
 writeln('Alamat                         :',alamat);
-writeln('Tempat Tanggal Lahir           :',jk);
+writeln('Tempat Tanggal Lahir           :',ttl);
 writeln('Kontak Whatsapp                :',wa);
 writeln('Email                          :',email);
 end;
