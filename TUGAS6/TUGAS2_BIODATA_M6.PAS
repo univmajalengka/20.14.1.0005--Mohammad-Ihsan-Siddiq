@@ -11,23 +11,23 @@ nama,npm,alamat,ttl,wa,email:string;
 jk:char;
 
 begin
-writeln('Masukan Nama                :');readln(nama);
+writeln('Masukan Nama                :');readln(Nama);
 writeln('Masukan NPM                 :');readln(NPM);
 writeln('Masukan jenis kelamin (L/P) :');readln(jk);
-writeln('Masukan Alamat              :');readln(alamat);
+writeln('Masukan Alamat              :');readln(Alamat);
 writeln('Masukan Tempat Tanggal Lahir:');readln(ttl);
 writeln('Masukan Kontak Whatsapp     :');readln(wa);
-writeln('Masukan Email               :');readln(email);
+writeln('Masukan Email               :');readln(Email);
 writeln('----------============================----------');
 writeln('----------=======BIODATA PRIBADI======----------');
 Writeln('----------============================----------');
-writeln('Nama                           :',nama);
-writeln('NPM                            :',npm);
+writeln('Nama                           :',Nama);
+writeln('NPM                            :',NPM);
 writeln('Jenis Kelamin                  :',jk);
-writeln('Alamat                         :',alamat);
+writeln('Alamat                         :',Alamat);
 writeln('Tempat Tanggal Lahir           :',ttl);
 writeln('Kontak Whatsapp                :',wa);
-writeln('Email                          :',email);
+writeln('Email                          :',Email);
 end;
 
 begin
