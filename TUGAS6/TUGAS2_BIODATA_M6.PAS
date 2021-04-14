@@ -19,7 +19,7 @@ writeln('Masukan Tempat Tanggal Lahir:');readln(ttl);
 writeln('Masukan Kontak Whatsapp     :');readln(wa);
 writeln('Masukan Email               :');readln(Email);
 writeln('----------============================----------');
-writeln('----------=======BIODATA PRIBADI======----------');
+writeln('----------====BIODATA DIRI SENDIRI====----------');
 Writeln('----------============================----------');
 writeln('Nama                           :',Nama);
 writeln('NPM                            :',NPM);
